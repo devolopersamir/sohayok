@@ -15,7 +15,7 @@ searchInput.addEventListener("input", (e)=>{
 
 const fetchData = async ()=>{
     try {
-        const response = await fetch("https://raw.githubusercontent.com/saqibbedar/fake-user-data-api/main/data.json");
+        const response = await fetch("https://raw.githubusercontent.com/devolopersamir/sohayok/refs/heads/main/database");
         if(!response.ok){
             throw new Error("Error while fetching data.");
         }
